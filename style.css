@@ -67,3 +67,45 @@
     background:#fff;
     transform:translateY(-5px);
 }
+/* NAVBAR */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:rgba(0,0,0,0.75);
+    backdrop-filter:blur(10px);
+    z-index:1000;
+}
+
+.logo{
+    font-size:38px;
+    font-family:'Great Vibes',cursive;
+    color:#d4af37;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+.nav-links li{
+    display:inline;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#ffffff;
+    font-size:17px;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#d4af37;
+}
