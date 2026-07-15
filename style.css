@@ -109,3 +109,96 @@
 .nav-links a:hover{
     color:#d4af37;
 }
+.hero{
+    position:relative;
+    overflow:hidden;
+}
+
+.bg-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:240px;
+    font-weight:900;
+    color:rgba(255,255,255,.04);
+    letter-spacing:15px;
+    user-select:none;
+    white-space:nowrap;
+    z-index:0;
+}
+
+.hero-left,
+.hero-right{
+    position:relative;
+    z-index:2;
+}.hero{
+    position:relative;
+    overflow:hidden;
+}
+
+.bg-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:240px;
+    font-weight:900;
+    color:rgba(255,255,255,.04);
+    letter-spacing:15px;
+    user-select:none;
+    white-space:nowrap;
+    z-index:0;
+}
+
+.hero-left,
+.hero-right{
+    position:relative;
+    z-index:2;
+}.hero{
+    position:relative;
+    overflow:hidden;
+}
+
+.bg-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:240px;
+    font-weight:900;
+    color:rgba(255,255,255,.04);
+    letter-spacing:15px;
+    user-select:none;
+    white-space:nowrap;
+    z-index:0;
+}
+
+.hero-left,
+.hero-right{
+    position:relative;
+    z-index:2;
+}.hero{
+    position:relative;
+    overflow:hidden;
+}
+
+.bg-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:240px;
+    font-weight:900;
+    color:rgba(255,255,255,.04);
+    letter-spacing:15px;
+    user-select:none;
+    white-space:nowrap;
+    z-index:0;
+}
+
+.hero-left,
+.hero-right{
+    position:relative;
+    z-index:2;
+}
