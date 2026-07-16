@@ -181,6 +181,7 @@ body {
 
 .btn:hover {
     background: var(--text-white);
+    color: #000;
     transform: translateY(-5px);
     box-shadow: 0 10px 20px var(--shadow-dark);
 }
@@ -267,6 +268,7 @@ body {
 .about-left h2 {
     font-size: 45px;
     margin: 20px 0;
+    color: var(--text-white);
 }
 
 .about-left p {
@@ -324,6 +326,7 @@ body {
 .skills h2 {
     font-size: 42px;
     margin: 20px 0 50px;
+    color: var(--text-white);
 }
 
 .skills-grid {
@@ -371,6 +374,7 @@ body {
 .section-title h2 {
     font-size: 42px;
     margin-top: 15px;
+    color: var(--text-white);
 }
 
 .timeline-item {
