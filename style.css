@@ -316,6 +316,43 @@
 .about-details h4{
     margin-top:10px;
     color:#fff;
+}.about{
+background:#0f1117;
+color:white;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+padding:100px 10%;
+}
+
+.about span{
+color:#d4af37;
+letter-spacing:3px;
+font-size:14px;
+}
+
+.about h2{
+font-size:45px;
+margin:20px 0;
+}
+
+.about p{
+color:#cfcfcf;
+line-height:1.8;
+}
+
+.info-box{
+border:1px solid #d4af37;
+padding:25px;
+margin-bottom:20px;
+border-radius:15px;
+background:#181b22;
+transition:.3s;
+}
+
+.info-box:hover{
+transform:translateY(-5px);
+box-shadow:0 0 20px rgba(212,175,55,.3);
 }
 
 }
