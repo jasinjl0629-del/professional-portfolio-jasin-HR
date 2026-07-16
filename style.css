@@ -266,5 +266,56 @@
 .profile{
     width:320px;
 }
+    .about{
+    padding:100px 10%;
+    background:#111;
+    color:white;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:42px;
+    color:#d4af37;
+}
+
+.about-text{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+}
+
+.about-text p{
+    color:#ccc;
+    font-size:18px;
+    line-height:1.9;
+}
+
+.about-details{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+    margin-top:50px;
+}
+
+.about-details div{
+    background:#1b1b1b;
+    padding:25px;
+    border:1px solid #d4af37;
+    border-radius:12px;
+}
+
+.about-details span{
+    color:#888;
+    font-size:14px;
+}
+
+.about-details h4{
+    margin-top:10px;
+    color:#fff;
+}
 
 }
