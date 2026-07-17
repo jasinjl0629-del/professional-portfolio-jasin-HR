@@ -260,5 +260,23 @@
     <p>© 2026 J.L. Jasin. All Rights Reserved.</p>
     <p>Designed & Developed by J.L. Jasin</p>
 </footer>
+    <script>
+
+const observer = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        }
+    });
+});
+
+const hiddenElements = document.querySelectorAll("section");
+
+hiddenElements.forEach((el)=>{
+    el.classList.add("hidden");
+    observer.observe(el);
+});
+
+</script>
 </body>
 </html>
